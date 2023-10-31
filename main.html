@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="enterName()">
+
+    <h1><span id="nomeJogador">Iniciando...</span></h1>
+
+    <table id="tabelaMain">
+        <tr>
+            <td onclick="changeLoc(0, 0)"></td>
+            <td onclick="changeLoc(0, 1)"></td>
+            <td onclick="changeLoc(0, 2)"></td>
+        </tr>
+        <tr>
+            <td onclick="changeLoc(1, 0)"></td>
+            <td onclick="changeLoc(1, 1)"></td>
+            <td onclick="changeLoc(1, 2)"></td>
+        </tr>
+        <tr>
+            <td onclick="changeLoc(2, 0)"></td>
+            <td onclick="changeLoc(2, 1)"></td>
+            <td onclick="changeLoc(2, 2)"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
